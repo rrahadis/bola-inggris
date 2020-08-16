@@ -1,0 +1,79 @@
+#teams{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+
+#teams .card{
+    margin-right: 10px;
+    width:250px;
+}
+#teams .card .card-image{
+    max-height: 250px;
+    max-width: 250px;
+    position: relative;
+}
+
+#table-league{
+    margin-top: 60px;
+}
+
+table {
+    font-size: 10px;
+  }
+
+.league-header{
+    font: bold;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.card-action{
+    color: #4527a0;
+}
+
+@media screen and (max-width: 409px) {
+    #teams .card{
+        margin-left: 30px;
+
+    }
+    table {
+        font-size: 8px;
+      }
+
+      .league-header{
+        font: bold;
+        font-size: 20px;
+    }
+
+    
+}
+
+@media screen and (min-width: 410px) and (max-width: 768px) {
+    #teams .card{
+        margin-left: 40px;
+
+    }
+      .league-header{
+        font: bold;
+        font-size: 30px;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1135px) {
+    #teams .card{
+        margin-left: 60px;
+
+    }
+      .league-header{
+        font: bold;
+        font-size: 30px;
+        margin-left: 5%;
+    }
+}

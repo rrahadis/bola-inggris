@@ -1,0 +1,22 @@
+{
+    "name": "Sepak Bola Inggris",
+    "short_name": "Sepak Bola Inggris",
+    "description": "Klasemen dan Tim",
+    "gcm_sender_id": "489407451958",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#01579b",
+    "theme_color": "#01579b",
+    "icons": [
+        {
+            "src": "img/logo192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+          },
+          {
+            "src": "img/img512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+          }
+    ]
+}
